@@ -16,6 +16,7 @@ video {
     max-width: 100%;
 }
 
+
 /* header  */
 
 header {
@@ -53,6 +54,14 @@ section {
 
 .intro {
     background-color: pink;
+}
+
+@media screen and (min-width: 800px) {
+
+    .intro {
+        background-color: yellow;
+    }
+        
 }
 
 .content {
